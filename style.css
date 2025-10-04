@@ -2,6 +2,10 @@ body {
     background-color: #fff1e6;
 }
 
+a {
+    color: white;
+}
+
 /* Menu */
 
 .menu {
