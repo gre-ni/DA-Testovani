@@ -1,9 +1,20 @@
 body {
     background-color: #fff1e6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #282425;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    color: #756158;
 }
 
 a {
-    color: white;
+    font-style: italic;
+    color: #756158;
 }
 
 /* Menu */
@@ -12,6 +23,7 @@ a {
     background-color: #282425;
     color: white;
     text-align: center;
+    list-style: none;
 }
 
 /* Sekce */
