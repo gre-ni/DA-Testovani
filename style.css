@@ -9,6 +9,22 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-style: italic;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    color: #756158;
+}
+
+h3 {
+    font-size: 24px;
     color: #756158;
 }
 
@@ -24,6 +40,12 @@ a {
     color: white;
     text-align: center;
     list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    padding: 10px;
 }
 
 /* Sekce */
