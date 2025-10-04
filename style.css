@@ -4,6 +4,7 @@ body {
     font-size: 20px;
     line-height: 1.5;
     color: #282425;
+    margin: 0px;
 }
 
 h1, h2, h3 {
@@ -15,22 +16,32 @@ h1 {
     font-size: 80px;
     text-align: center;
     color: white;
+    margin: 0px;
 }
 
 h2 {
     font-size: 48px;
     text-align: center;
     color: #756158;
+    margin-top: 0px;
 }
 
 h3 {
     font-size: 24px;
     color: #756158;
+    margin-top: 36px;
 }
 
 a {
     font-style: italic;
     color: #756158;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 /* Menu */
@@ -42,6 +53,7 @@ a {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding: 0px;
 }
 
 .menu li {
@@ -64,6 +76,7 @@ a {
     background-color: #282425;
     color: white;
     text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
 /*
